@@ -10,3 +10,6 @@ const App = () => {
     </div>
   )
 }
+
+// React 컴포넌트를 페이지의 root 엘리먼트에 렌더링
+ReactDOM.render(<App />, document.getElementById('root'));

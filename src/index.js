@@ -2,3 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// 간단한 React 컴포넌트 정의
+const App = () => {
+  return (
+    <div>
+      <h1>Hello, React!</h1>
+    </div>
+  )
+}

@@ -5,7 +5,7 @@ function App() {
 
 // 렌더링 함수
 function render(component, container) {
-  container.innnerHTML = ''; // 컨테이너 비우기
+  container.innnerHTML = 'Hello, world!'; // 컨테이너 비우기
   container.appendChild(component()); //컴포넌트 렌더링
 }
 
